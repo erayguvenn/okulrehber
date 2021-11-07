@@ -1,16 +1,19 @@
 # okulrehber
 
-Okuldaki kişilerin kaydedildiği rehber
+Okuldaki kişilerin kaydedildiği rehber.
 
-## Getting Started
+# Uygulamanın Amacı!
 
-This project is a starting point for a Flutter application.
+Kendimizi geliştirmek amacıyla oluşturduğumuz **Okul Rehber** isimli uygulama bizlere okul içerisinde bulunan öğretmen ve öğrencilere iletişim için bilgiler vermesini hedefliyoruz.
 
-A few resources to get you started if this is your first Flutter project:
+# Neye Hizmet Ediyor
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Ona sana bana bize tüm insanlığa gelecek nesillere ve nicelerine. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ne İçin Kullanabilirsiniz?
+
+Aynı okulda okuyan öğrenci veya öğretmenin iletişim bilgilerine ulaşmak istediğinizde arama yapabilir veyahut size ulaşmak isteyen insanlar için kolaylık sağlamak istediğinizde kendi bilgilerinizi girerek hem uygulamanın büyüyüp gelişmesine hem de iletişim imkanlarının artmasına yardımcı olabilirsiniz.
+
+## Ne Beklemelisiniz?
+
+Ne verirsen elinle, o gelir seninle :)
