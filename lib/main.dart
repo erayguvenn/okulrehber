@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'nav_button.dart';
+import 'animated_search_bar.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -21,7 +23,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
-
 
   final String title;
 
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const NavButton(),
+            const AnimatedSearchBar(),
             const Text(
               'You have pushed the button this many times:',
             ),
