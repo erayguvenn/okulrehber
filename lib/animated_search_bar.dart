@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AnimatedSearchBar extends StatefulWidget {
-  const AnimatedSearchBar({Key? key}) : super(key: key);
+  const AnimatedSearchBar({
+    Key? key,
+    required this.ikon,
+  }) : super(key: key);
+  final IconData ikon;
 
   @override
   _AnimatedSearchBarState createState() => _AnimatedSearchBarState();
@@ -50,7 +54,7 @@ class _AnimatedSearchBarState extends State<AnimatedSearchBar> {
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Icon(
-                  _folded ? Icons.search : Icons.close,
+                  _folded ? widget.ikon : Icons.close,
                   color: Colors.blue[900],
                 ),
               ),

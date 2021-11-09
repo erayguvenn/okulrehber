@@ -11,12 +11,17 @@ class NavButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: () { },
-      child: const Text('Örnek buton denemesi'),
+      onPressed: fonks,
+      child: const Icon(Icons.account_circle),
       style: ElevatedButton.styleFrom(
-        primary: Colors.red, // background
-        onPrimary: Colors.white, // foreground
+        primary: Colors.transparent, // background
+        onPrimary: Colors.lightBlueAccent, // foreground
+
       ),
     );
+  }
+
+  void fonks(){
+    debugPrint("asfda");
   }
 }

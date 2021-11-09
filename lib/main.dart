@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const NavButton(),
-            const AnimatedSearchBar(),
+            const AnimatedSearchBar(ikon: Icons.ac_unit,),
             const Text(
               'You have pushed the button this many times:',
             ),
